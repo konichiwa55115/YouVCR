@@ -10,8 +10,8 @@ import time
 import urllib.request
 import xml.etree.ElementTree as ET
 import yaml
-from youtube_dl import YoutubeDL
-from youtube_dl.utils import DownloadError
+from yt-dlp import YoutubeDL
+from yt-dlp.utils import DownloadError
 
 
 def parse_arg():
